@@ -25,20 +25,13 @@ header {
     justify-content: center;
 }
 
-/* .main {
-    background-color: var(--White);
-    border-radius: 28px;
-    padding: 30px;
-    width: 90vw;
-    display: flex;
-    flex-direction: column;
-} */
-
 .main {
     background-color: var(--White);
     padding: 30px;
     display: flex;
     flex-direction: column;
+    width: 90vw;
+    border-radius: 28px;
 }
 
 .hero-image {
@@ -47,6 +40,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 30px;
 }
 
 .hero-image > img {
@@ -66,22 +60,22 @@ header {
 .content-heading > h1 {
     font-family: "Poppins", serif;
     font-weight: 600;
-    font-size: 36px;
-    line-height: 51px;
+    font-size: 28px;
+    line-height: 2rem;
     letter-spacing: -0.25px;
     color: var(--DarkestGreen);
     margin-bottom: 10px;
 }
 
 .content-heading {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .content-heading > p {
     font-family: "Poppins", serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5rem;
     letter-spacing: 0.5px;
     color: var(--Black);
 }
@@ -97,10 +91,11 @@ input {
     background-color: var(--DeepLightGreen);
     border-radius: 16px 16px 0 0;
     padding: 15px;
+    font-size: 16px;
 }
 
 #fullname {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 #email {
     margin-bottom: 10px;
@@ -119,7 +114,7 @@ small {
     font-family: "Poppins", serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 1rem;
     letter-spacing: 0.25px;
     color: var(--Black);
 }
