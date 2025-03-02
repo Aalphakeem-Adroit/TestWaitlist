@@ -19,7 +19,7 @@
 header {
     width: 100vw;
     height: 100vh;
-    background-color: var(--LightGreen);
+    background-color: var(--White);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,8 +30,9 @@ header {
     padding: 30px;
     display: flex;
     flex-direction: column;
-    width: 90vw;
-    border-radius: 28px;
+    /* width: 90vw; */
+    /* border-radius: 28px; */
+    height: auto;
 }
 
 .hero {
@@ -43,12 +44,12 @@ header {
 }
 
 .hero-image {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    /* padding-top: ; Lets see if i wont change this */
 }
 
 .hero-image > img {
@@ -168,8 +169,13 @@ small {
 
 /* Media Query */
 @media (min-width: 768px) {
+    header {
+        background-color: var(--LightGreen);
+    }
+
     .main {
         width: 70vw;
+        border-radius: 28px;
     }
 }
 
