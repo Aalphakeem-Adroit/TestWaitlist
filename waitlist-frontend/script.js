@@ -29,7 +29,7 @@ document.getElementById("waitlistForm").addEventListener("submit", function (eve
 
         let subtextMessage = document.getElementById("subtextMessage");
         if (subtextMessage) {
-            subtextMessage.textContent = "You’re in! 🎉 Welcome to the future of Shari’ah-compliant, secure, and ethical financial documentation. Stay tuned for exclusive updates and next steps!"
+            subtextMessage.textContent = "You’re in! Welcome to the future of Shari’ah-compliant, secure, and ethical financial documentation. Stay tuned for exclusive updates and next steps!"
         }
 
         let waitlistFormInput = document.getElementById("waitlistFormInput");
