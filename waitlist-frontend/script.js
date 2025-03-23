@@ -1,6 +1,14 @@
 document.getElementById("waitlistForm").addEventListener("submit", function (event) {
     event.preventDefault();
 
+    // ==============================
+    const button = document.getElementById("submitButton");
+    
+    button.disabled = true;
+    button.innerText = "⚠️ Submitting...";
+    button.style.backgroundColor = "#D5E8D0";
+    // ===============================
+
     let formData = {
         fullname: document.getElementById("fullname").value,
         email: document.getElementById("email").value
